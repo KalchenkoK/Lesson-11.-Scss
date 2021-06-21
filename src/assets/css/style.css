@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800&display=swap");
+@media (min-width: 260px) and (max-width: 375px) {
+  .mobile {
+    background: white;
+    padding: 0 16px; }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0 30px; }
+  .icons {
+    display: flex; }
+  .info {
+    margin-right: 5px; }
+  .hello {
+    display: flex;
+    align-items: center;
+    margin-bottom: 17px; }
+  .martha {
+    margin: 0 16px;
+    width: 247px; }
+  .burger {
+    background: no-repeat url(../img/burger.png) center/cover;
+    width: 32px;
+    height: 32px;
+    border: none; }
+  .button_block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px; }
+  .button {
+    padding: 8px 16px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    border: none;
+    background-color: white; }
+    .button:hover {
+      color: white;
+      background: #393939;
+      border-radius: 16px;
+      cursor: pointer;
+      font-family: "Nunito Sans", sans-serif;
+      font-weight: 800; }
+  .meditation {
+    background: #ffe3d3;
+    border-radius: 16px;
+    margin-bottom: 16px; }
+    .meditation > .men {
+      margin-left: 24px; }
+  .meditation__text {
+    display: flex;
+    justify-content: space-between; }
+    .meditation__text > span,
+    .meditation__text > .time {
+      padding: 16px 16px 8px 16px; }
+  .main_img {
+    display: flex;
+    flex-wrap: wrap; } }
