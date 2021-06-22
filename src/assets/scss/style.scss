@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800&display=swap");
-@media (min-width: 260px) and (max-width: 375px) {
+@media (min-width: 320px) and (max-width: 425px) {
+  body {
+    font-family: "Nunito Sans", sans-serif;
+  }
   .mobile {
     background: white;
     padding: 0 16px;
@@ -8,6 +11,10 @@
     display: flex;
     justify-content: space-between;
     padding: 15px 0 30px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.3px;
   }
   .icons {
     display: flex;
@@ -23,6 +30,9 @@
   .martha {
     margin: 0 16px;
     width: 247px;
+    font-weight: 700;
+    color: #191d21;
+    font-size: 24px;
   }
   .burger {
     background: no-repeat url(../img/burger.png) center/cover;
@@ -37,38 +47,104 @@
   }
   .button {
     padding: 8px 16px;
-    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
     font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.5px;
     border: none;
     background-color: white;
+    font-style: normal;
+    font-family: "Nunito Sans", sans-serif;
     &:hover {
       color: white;
       background: #393939;
       border-radius: 16px;
       cursor: pointer;
-      font-family: "Nunito Sans", sans-serif;
-      font-weight: 800;
+      font-weight: 800;      
     }
   }
-  .meditation {    
-    background: #ffe3d3;
-    border-radius: 16px;
-    margin-bottom: 16px;    
-    
-    > .men {
-     margin-left: 24px;
-    }
-  }
-  .meditation__text{
-    display: flex;
-    justify-content: space-between;
-    > span,
-    > .time {
-      padding: 16px 16px 8px 16px;
-    }
-  }
-  .main_img{
+
+  .main {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .meditation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .meditation2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  .meditation__time {
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 16px;
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 4px 8px;
+  }
+  .Image1 {
+    padding: 0 16px;
+  }
+  .Image3 {
+    padding: 0 8px;
+  }
+  .meditation__text,
+  .kindness {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .kindness {
+    margin-bottom: 8px;
+  }
+  .main__left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 14px;
+  }
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5 {
+    padding: 16px;
+    background: #ffe3d3;
+    border-radius: 16px;
+    margin-bottom: 16px;
+  }
+  .card2 {
+    background: #e7f6ff;
+  }
+  .Image2 {
+    padding: 6px 22px;
+  }
+  .Image4 {
+    padding: 16px 8px 0 8px;
+  }
+  .card3 {
+    background: #fffaca;
+  }
+  .card4 {
+    background: #ffe8ec;
+  }
+  .card5 {
+    background: #eee6ff;
+  }
+  .home_bar {
+    position: fixed;
+    bottom: 8px;
+    left: calc(50% - 134px / 2 + 0.5px);
+    background: #acb8c2;
+    opacity: 0.4;
+    border-radius: 100px;
+    width: 134px;
+    height: 5px;
   }
 }
