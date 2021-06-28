@@ -55,7 +55,7 @@
   .main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; }
+    justify-content: center; }
   .meditation {
     display: flex;
     justify-content: space-between;
@@ -74,9 +74,11 @@
     border-radius: 16px;
     padding: 4px 8px; }
   .Image1 {
-    padding: 0 16px; }
+    padding: 0 16px;
+    width: 100%; }
   .Image3 {
-    padding: 0 8px; }
+    padding: 0 8px;
+    width: 100%; }
   .meditation__text,
   .kindness {
     font-size: 20px;
@@ -86,7 +88,10 @@
   .main__left {
     display: flex;
     flex-direction: column;
-    margin-right: 14px; }
+    margin-right: 14px;
+    width: calc(50% - 7px); }
+  .main__right {
+    width: calc(50% - 7px); }
   .card1,
   .card2,
   .card3,
@@ -99,9 +104,11 @@
   .card2 {
     background: #e7f6ff; }
   .Image2 {
-    padding: 6px 22px; }
+    padding: 6px 22px;
+    width: 100%; }
   .Image4 {
-    padding: 16px 8px 0 8px; }
+    padding: 16px 8px 0 8px;
+    width: 100%; }
   .card3 {
     background: #fffaca; }
   .card4 {

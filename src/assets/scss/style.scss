@@ -67,7 +67,7 @@
   .main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .meditation {
@@ -92,9 +92,11 @@
   }
   .Image1 {
     padding: 0 16px;
+    width: 100%;
   }
   .Image3 {
     padding: 0 8px;
+    width: 100%;
   }
   .meditation__text,
   .kindness {
@@ -108,6 +110,10 @@
     display: flex;
     flex-direction: column;
     margin-right: 14px;
+    width: calc(50% - 7px);
+  }
+  .main__right{
+    width: calc(50% - 7px);
   }
   .card1,
   .card2,
@@ -124,9 +130,11 @@
   }
   .Image2 {
     padding: 6px 22px;
+    width: 100%;
   }
   .Image4 {
     padding: 16px 8px 0 8px;
+    width: 100%;
   }
   .card3 {
     background: #fffaca;
