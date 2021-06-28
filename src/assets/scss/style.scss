@@ -1,3 +1,4 @@
+@import url(./reset.css);
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800&display=swap");
 @media (min-width: 320px) and (max-width: 425px) {
   body {
@@ -26,6 +27,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 17px;
+    justify-content: space-between;
   }
   .martha {
     margin: 0 16px;
@@ -35,10 +37,11 @@
     font-size: 24px;
   }
   .burger {
-    background: no-repeat url(../img/burger.png) center/cover;
+    background: no-repeat url(../../src/assets/img/burger.png) center/cover;
     width: 32px;
     height: 32px;
-    border: none;
+    border: none;    
+    margin-right: 16px;
   }
   .button_block {
     display: flex;
